@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CatsServiceService } from '../services/cats-service/cats-service.service';
 import { ActivatedRoute } from '@angular/router';
+import {MatCardModule} from '@angular/material/card'; 
 
 @Component({
   selector: 'app-single-cat',
   standalone: true,
-  imports: [],
+  imports: [MatCardModule],
   templateUrl: './single-cat.component.html',
   styleUrl: './single-cat.component.css'
 })

@@ -9,7 +9,8 @@ export class CatsServiceService {
     {
       id: 1,
       name: 'Fenix',
-      description: 'Gatto dal pelo nero e dal carattere mite'
+      description: 'Gatto dal pelo nero e dal carattere mite',
+      image: 'https://images.unsplash.com/photo-1605895773434-3579e181bc3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdhdHRvJTIwbmVyb3xlbnwwfHwwfHx8MA%3D%3D'
     },
     {
       id: 2,
