@@ -1,0 +1,5 @@
+<div *ngFor="let gatto of gatti">
+   <a routerLink="/cats/{{gatto.id}}">{{ gatto.name }}</a>
+ </div>
+
+ <router-outlet></router-outlet>
