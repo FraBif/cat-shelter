@@ -1,5 +1,10 @@
-<div *ngFor="let gatto of gatti">
-   <a routerLink="/cats/{{gatto.id}}">{{ gatto.name }}</a>
- </div>
+
+<div class="container">
+   <mat-list *ngFor="let gatto of gatti">
+     <mat-list-item ><a routerLink="/cats/{{gatto.id}}">{{ gatto.name }}</a></mat-list-item>
+     <mat-divider ></mat-divider>
+   </mat-list>
+</div>
+
 
  <router-outlet></router-outlet>
